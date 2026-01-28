@@ -1,3 +1,3 @@
 export function isValidUsername(username: string,password:string){
-    return username && password
+    return username && password;
 }
