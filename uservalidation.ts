@@ -1,3 +1,6 @@
 export function isValidUsername(username: string,password:string){
-    return username && password;
+    if(!username){
+        return false;
+    }
+    return true;
 }
